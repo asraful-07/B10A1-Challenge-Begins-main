@@ -56,27 +56,28 @@ ul{
     align-items: center;
     flex-direction: column;
 }
-.banner-title img{
-   width: 240.28px;
+.banner-sub img{
+   width: 240px;
    height: 240px;
-   margin: 30px 520px ;
+   padding-top: 26px;
+   padding-bottom: 32px;
 }
-.banner-title .ban{
+.banner-sub .ban{
    color: rgb(13, 19, 33);
    font-size: 48px;
    font-weight: 800;
    line-height: 68px;
    text-align: center;
-   margin: 30px;
+   padding-bottom: 24px;
 }
-.banner-title .para{
+.banner-sub .para{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 32px;
 }
-.banner-title .button{
+.banner-sub .button{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
@@ -84,7 +85,7 @@ ul{
     border-radius: 8px;
     background: rgb(13, 19, 33);   
     padding: 21px 24px;
-    margin: 10px 480px;
+    margin-bottom: 44px;
 }
 /* main section */
 /* bann section */
