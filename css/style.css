@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Azeret Mono", monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navber section */
+.header{
+    width: 1440px;
+}
+.head{
+    width: 100%;
+    margin: 0px auto;
+    padding: 14px 9%;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+.navber ul li{
+    list-style: none;
+}
+.navber ul li a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: left;
+}
+.btn button{
+    border: 1px solid rgb(13, 19, 33);
+    padding: 17px 24px;
+    background-color: #fff;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+}
+/* banner section */
+.banner{
+    width: 1440px;
+    height: 652px;
+    margin: 0px 70px;
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.banner-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-title img{
+   width: 240.28px;
+   height: 240px;
+   margin: 30px 480px ;
+}
+.banner-title .ban{
+   color: rgb(13, 19, 33);
+   font-size: 48px;
+   font-weight: 800;
+   line-height: 68px;
+   text-align: center;
+   margin: 30px;
+}
+.banner-title .para{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.banner-title .button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);   
+    padding: 21px 24px;
+    margin: 10px 480px;
+}
+/* main section */
+/* bann section */
+.about{
+    width: 1140px;
+    height: 1395px; 
+    margin: 60px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.about-sub{
+    width: 943px;
+    height: 1230px; 
+    margin: 100px auto;
+} 
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us .ab{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.about-us .cd{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+}
+.abot-title{
+    width: 850px;
+    height: 240px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+.about-text .text{
+    color: rgba(13, 19, 33, 0.7); 
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0px;
+    text-align: left;
+}
+.about-text .word{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0px;
+    text-align: left;
+}
+.about-text .bto{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin: 20px 0px;
+}
+.imges img{
+    width: 100%;
+    height: auto;
+}
+/* you tube section */
+.hero{
+    width: 1140px;
+    height: 775px;
+    margin: 0px auto;
+    border: 2px solid;
+}
+.you{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.tube{
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.you-tube iframe{
+    width: 1076px;
+    height: 550px;
+    box-sizing: border-box;
+    margin: 10px 30px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    border: 2px solid black;
+}
+/* card section */
+section{
+    width: 1140px;
+    height: 460px;
+    margin: 60px auto;
+    border: 2px solid green;
+}
+h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.hd{
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   margin: 30px 0px;
+   text-align: center;
+}
+
+.card{
+    width: 1140px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.imge img{
+    width: 56px;
+    height: 56px;
+    margin: 8px 24px;
+}
+.card-title h4{
+    color: rgb(13, 19, 33); 
+    font-size: 24px;
+    font-weight: 800;
+    margin: 16px 26px;
+}
+.card-title p{
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   margin: 16px 26px;
+}
+.card-title .span{
+  color: rgb(13, 19, 33); 
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 26px;
+  text-decoration-line: underline;
+}
