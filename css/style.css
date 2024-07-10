@@ -160,8 +160,7 @@ ul{
 .hero{
     width: 1140px;
     height: 775px;
-    margin: 0px auto;
-    border: 2px solid;
+    margin: 60px auto;
 }
 .you{
     color: rgb(13, 19, 33);
@@ -181,16 +180,13 @@ ul{
     height: 550px;
     box-sizing: border-box;
     margin: 10px 30px;
-    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    border: 2px solid black;
 }
 /* card section */
 section{
     width: 1140px;
     height: 460px;
     margin: 60px auto;
-    border: 2px solid green;
 }
 h1{
     color: rgb(13, 19, 33);
@@ -252,3 +248,53 @@ h1{
   margin: 16px 26px;
   text-decoration-line: underline;
 }
+/* secend card section */
+.sceend-card{
+    width: 1140px;
+    height: 866px;
+    margin: 0px auto;
+}
+.next{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 24px 0px;
+    text-align: center;
+}
+.my{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0px;
+    text-align: center;
+}
+.hcj-title{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    margin: 28px 10px;
+}
+.cj-text .pext{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 8px 0px;
+}
+.cj-text .world{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px;
+}
+.cj-text .span-x{
+    color: rgb(13, 19, 33); 
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0px;
+    text-decoration-line: underline;
+}
+/* last main section */
