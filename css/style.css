@@ -352,7 +352,8 @@ h1{
 .footer{
     max-width: 1440px;
     height: 100px;
-    margin: 40px auto;
+    margin: 0px auto;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
