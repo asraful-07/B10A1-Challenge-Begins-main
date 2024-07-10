@@ -97,11 +97,6 @@ body{
     background: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
 }
-.about-sub{
-    /* width: 943px; */
-    /* height: 1230px;  */
-    /* margin: 0 auto; */
-} 
 .about-us{
     display: flex;
     flex-direction: column;
@@ -274,7 +269,7 @@ h1{
 /* secend card section */
 .sceend-card{
     width: 1140px;
-    height: 620px;
+    /* height: 620px; */
     margin: 40px auto;
 }
 .next{
@@ -300,6 +295,7 @@ h1{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     margin: 24px 0px;
+    padding: 48px;
 }
 .pic img{
     width: 100%;
@@ -331,16 +327,19 @@ h1{
     margin: 0px auto;
     padding: 64px 47px;
     height: 314px;
-    background-image: url(../assets/handshake.jpg);
+    /* background-image: url(../assets/handshake.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(../assets/handshake.jpg);
+    /* background-image: . */
     background-position: center;
     background-size: cover;
-    border: 2px solid green;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2); */
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .last .sup{
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -370,6 +369,8 @@ h1{
     padding: 17px 20px;
     background: rgb(255, 255, 255);
     border: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 /* footer section */
 .footer{
