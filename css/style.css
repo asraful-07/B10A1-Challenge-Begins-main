@@ -8,13 +8,10 @@ body{
     box-sizing: border-box;
 }
 /* navber section */
-.header{
-    width: 1440px;
-}
 .head{
-    width: 100%;
+    width: 1140px;
     margin: 0px auto;
-    padding: 14px 9%;
+    /* padding: 14px 9%; */
     display: flex;
     justify-content: space-between;
 }
@@ -45,9 +42,10 @@ ul{
 }
 /* banner section */
 .banner{
-    width: 1440px;
+    /* width: 1440px; */
+    max-width: 1440px;
     height: 652px;
-    margin: 0px 70px;
+    margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
     background-size: cover;
@@ -61,7 +59,7 @@ ul{
 .banner-title img{
    width: 240.28px;
    height: 240px;
-   margin: 30px 480px ;
+   margin: 30px 520px ;
 }
 .banner-title .ban{
    color: rgb(13, 19, 33);
@@ -92,10 +90,11 @@ ul{
 /* bann section */
 .about{
     width: 1140px;
-    height: 1395px; 
-    margin: 60px auto;
+    height: 1395px;
+    margin: 80px auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
 }
 .about-sub{
     width: 943px;
@@ -160,13 +159,14 @@ ul{
 .hero{
     width: 1140px;
     height: 775px;
-    margin: 60px auto;
+    margin: 0 auto;
 }
 .you{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    padding-bottom: 24px;
 }
 .tube{
    color: rgb(13, 19, 33);
@@ -251,8 +251,8 @@ h1{
 /* secend card section */
 .sceend-card{
     width: 1140px;
-    height: 866px;
-    margin: 0px auto;
+    height: 620px;
+    margin: 40px auto;
 }
 .next{
     color: rgb(13, 19, 33);
@@ -272,6 +272,11 @@ h1{
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0px;
 }
 .pic img{
     width: 100%;
@@ -298,3 +303,48 @@ h1{
     text-decoration-line: underline;
 }
 /* last main section */
+.last{
+    width: 1140px;
+    margin: 0px auto;
+    padding: 64px 47px;
+    height: 314px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid green;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.last .sup{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.last .er{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px 0px;
+    opacity: 0,7;
+}
+.saend .mas{
+    width: 548px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-top: 60px;
+}
+.saend .submit{
+    border-radius: 8px;
+    padding: 17px 20px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
