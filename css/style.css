@@ -348,3 +348,26 @@ h1{
     background: rgb(255, 255, 255);
     border: none;
 }
+/* footer section */
+.footer{
+    max-width: 1440px;
+    height: 100px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer .foot{ 
+   color: rgb(13, 19, 33);
+   margin: 32px 60px;
+   font-size: 20px;
+   font-weight: 600;
+
+}
+ .foot-icon{
+  margin: 22px 60px;
+} 
+.foot-icon img{
+  margin: 10px;
+} 
